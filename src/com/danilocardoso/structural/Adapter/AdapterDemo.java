@@ -1,4 +1,4 @@
-package com.danilocardoso.Adapter;
+package com.danilocardoso.structural.Adapter;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -19,6 +19,9 @@ public class AdapterDemo {
 
         EmployeeAdapterLdap employeeAdapterLdap = new EmployeeAdapterLdap(employeeLdap);
         employeeList.add(employeeAdapterLdap);
+
+        EmployeeCSV employeeFromCSV = new EmployeeCSV("567, Sherlock, Holmes, sherlock@holmes.com");
+        employeeList.add(new EmployeeAdapterCSV(employeeFromCSV));
 
         System.out.println(Arrays.deepToString(employeeList.toArray()));
     }

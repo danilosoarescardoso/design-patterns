@@ -1,8 +1,8 @@
-package com.danilocardoso.Adapter;
+package com.danilocardoso.structural.Adapter;
 
 import java.util.ArrayList;
 import java.util.List;
-import com.danilocardoso.Adapter.EmployeeAdapterLdap;
+import com.danilocardoso.structural.Adapter.EmployeeAdapterLdap;
 
 public class EmployeeClient {
 

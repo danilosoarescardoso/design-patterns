@@ -1,4 +1,4 @@
-package com.danilocardoso.Adapter;
+package com.danilocardoso.structural.Adapter;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.danilocardoso.Adapter;
+package com.danilocardoso.structural.Adapter;
 
 public interface Employee {
 
